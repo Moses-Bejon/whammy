@@ -6,7 +6,7 @@
 
 // If we are in a browser then there will be no global, so we should use window instead
 if (typeof global === "undefined"){
-	global = window
+	var global = window
 }
 
 window.Whammy = (function(){
